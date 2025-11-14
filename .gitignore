@@ -1,0 +1,8 @@
+__pycache__/
+uploads/
+dataset/train/
+dataset/test/
+dataset/valid/
+*.mp4
+*.avi
+safety website.pdf
