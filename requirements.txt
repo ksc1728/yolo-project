@@ -1,5 +1,5 @@
 Flask==3.0.0
-ultralytics==8.0.34
-opencv-python==4.8.1.78
-numpy==1.24.3
+ultralytics==8.1.0
+opencv-python==4.9.0.80
+numpy==1.24.4
 gunicorn==21.2.0
