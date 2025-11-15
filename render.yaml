@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: yolo-flask-app
+    env: python
+    region: oregon
+    plan: free
+
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+
+    startCommand: gunicorn app:app
+
+    envVars:
+      PYTHON_VERSION: 3.10
